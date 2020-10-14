@@ -1,5 +1,11 @@
-C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\bin\Debug\FizzBuzz.Entities.dll
-C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\bin\Debug\FizzBuzz.Entities.pdb
-C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\obj\Debug\FizzBuzz.Entities.csproj.CoreCompileInputs.cache
-C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\obj\Debug\FizzBuzz.Entities.dll
-C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\obj\Debug\FizzBuzz.Entities.pdb
+C:/Vijay/Development/repos/Dev/FizzBuzz/FizzBuzz.Entities/bin/Debug/FizzBuzz.Entities.dll
+C:/Vijay/Development/repos/Dev/FizzBuzz/FizzBuzz.Entities/bin/Debug/FizzBuzz.Entities.pdb
+C:/Vijay/Development/repos/Dev/FizzBuzz/FizzBuzz.Entities/obj/Debug/FizzBuzz.Entities.csproj.CoreCompileInputs.cache
+C:/Vijay/Development/repos/Dev/FizzBuzz/FizzBuzz.Entities/obj/Debug/FizzBuzz.Entities.dll
+C:/Vijay/Development/repos/Dev/FizzBuzz/FizzBuzz.Entities/obj/Debug/FizzBuzz.Entities.pdb
+/Users/vijay/Projects/FizzBuzz/FizzBuzz/FizzBuzz.Entities/bin/Debug/FizzBuzz.Entities.dll
+/Users/vijay/Projects/FizzBuzz/FizzBuzz/FizzBuzz.Entities/bin/Debug/FizzBuzz.Entities.pdb
+/Users/vijay/Projects/FizzBuzz/FizzBuzz/FizzBuzz.Entities/obj/Debug/FizzBuzz.Entities.csprojAssemblyReference.cache
+/Users/vijay/Projects/FizzBuzz/FizzBuzz/FizzBuzz.Entities/obj/Debug/FizzBuzz.Entities.csproj.CoreCompileInputs.cache
+/Users/vijay/Projects/FizzBuzz/FizzBuzz/FizzBuzz.Entities/obj/Debug/FizzBuzz.Entities.dll
+/Users/vijay/Projects/FizzBuzz/FizzBuzz/FizzBuzz.Entities/obj/Debug/FizzBuzz.Entities.pdb
