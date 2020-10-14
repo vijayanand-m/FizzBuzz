@@ -1,0 +1,5 @@
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\bin\Debug\FizzBuzz.Entities.dll
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\bin\Debug\FizzBuzz.Entities.pdb
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\obj\Debug\FizzBuzz.Entities.csproj.CoreCompileInputs.cache
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\obj\Debug\FizzBuzz.Entities.dll
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Entities\obj\Debug\FizzBuzz.Entities.pdb

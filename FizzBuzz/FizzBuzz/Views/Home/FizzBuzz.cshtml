@@ -1,0 +1,107 @@
+﻿@model FizzBuzz.Models.FizzBuzzViewModel
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>FizzBuzz</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href=" https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#dtResultGrid').DataTable({
+                "paging": true,
+                "pageLength": 10,
+                "lengthChange": false,
+                responsive: true,
+                "searching": false,
+                "columnDefs": [
+                    { "width": "60%", "targets": 0 },
+                    {
+                        targets: 1,
+                        render: function (data, type, row) {
+                            var color = 'black';
+                            if (data == 'FIZZ' || data == 'WIZZ') {
+                                color = 'blue';
+                            }
+                            if (data == 'BUZZ'  || data == 'WUZZ') {
+                                color = 'red';
+                            }
+                            if (data == 'FIZZBUZZ'  || data == 'WIZZWUZZ') {
+                                return '<span style="color: blue">' + data.substring(0, 4) + '</span><span style="color:red">' + data.substring(4, 8) + '</span>'
+                            }
+                            else {
+                                return '<span style="color:' + color + '">' + data + '</span>';
+                            }
+                        }
+                    }
+                ]
+            });
+        });
+
+    </script>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Number enterted will be evaluated as Fizz or Buzz</h5>
+                <div class="form-inline">
+
+                    @Html.EditorFor(model => model.NumberToEvaluate, new
+               {
+                   htmlAttributes =
+                             new { @class = "form-control form-control-lg col-lg-2  ", placeholder = "Enter a Number", min = "1", max = "100", @Value = "" }
+               })
+                    <input type="submit" value="Get Results" class="btn btn-primary btn-rounded " />
+                    @Html.ValidationMessageFor(model => model.NumberToEvaluate, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="card-body h-75">
+                @if (Model.EvaluatedValue.Count > 0)
+                {
+                    <div class="col-md-6">
+                        <table id="dtResultGrid" class="table table-sm table-hover text-primary table-bordered">
+                            <thead style="text-align:center">
+                                <tr>
+                                    <th class="th-sm green-text font-weight-bolder"> Number Processed</th>
+                                    <th class="th-sm green-text font-weight-bolder">Results</th>
+                                </tr>
+                            </thead>
+                            <tbody style="text-align:center">
+                                @foreach (var keyValue in Model.EvaluatedValue)
+                                {
+                                    <tr>
+                                        <td>@keyValue.Key</td>
+                                        <td>@keyValue.Value</td>
+
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+
+        </div>
+        <div class="card-footer">
+            <h5 class="card-title">Instruction</h5>
+            <p class="card-text">Numbers from 1 to the given input numbers will be evaluated.</p>
+        </div>
+    }
+   
+
+    <!-- Bootstrap tooltips -->
+    @*<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>*@
+
+</body>
+</html>

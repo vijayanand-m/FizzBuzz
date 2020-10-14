@@ -1,0 +1,9 @@
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\bin\Debug\FizzBuzz.Interface.dll
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\bin\Debug\FizzBuzz.Interface.pdb
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\bin\Debug\FizzBuzz.Entities.dll
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\bin\Debug\FizzBuzz.Entities.pdb
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\obj\Debug\FizzBuzz.Interface.csprojAssemblyReference.cache
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\obj\Debug\FizzBuzz.Interface.csproj.CoreCompileInputs.cache
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\obj\Debug\FizzBuzz.Interface.csproj.CopyComplete
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\obj\Debug\FizzBuzz.Interface.dll
+C:\Vijay\Development\repos\Dev\FizzBuzz\FizzBuzz.Interface\obj\Debug\FizzBuzz.Interface.pdb
